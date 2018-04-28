@@ -1,0 +1,17 @@
+// 
+// Start DEMO
+//
+
+// Create .Net Core 2.0 application
+&nbsp;&nbsp;&nbsp;&nbsp; @System.Environment.MachineName - Version: @Microsoft.Extensions.PlatformAbstractions.PlatformServices.Default.Application.ApplicationVersion
+
+
+//
+// Links
+//
+
+// Docker Hub/Docker Store
+http://hub.docker.com
+
+// Visual Studio Community Edition
+https://www.visualstudio.com/
