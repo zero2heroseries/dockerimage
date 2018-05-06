@@ -2,6 +2,9 @@
 // Start DEMO
 //
 
+// Enable nested virtualization
+Set-VMProcessor -VMName "Windows 10 Pro VS Community" -ExposeVirtualizationExtensions $true
+
 // Create .Net Core 2.0 application
 &nbsp;&nbsp;&nbsp;&nbsp; @System.Environment.MachineName - Version: @Microsoft.Extensions.PlatformAbstractions.PlatformServices.Default.Application.ApplicationVersion
 
